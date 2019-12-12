@@ -22,7 +22,7 @@ WebUI.navigateToUrl('http://lifecharger.org/')
 
 WebUI.click(findTestObject('Object Repository/LifeCharger/Page_Life Charger   a new beginning/span_Search for_fa fa-search'))
 
-not_run: WebUI.click(findTestObject('Object Repository/LifeCharger/Page_Search Results for   Life Charger/a_You will definitely reach your goal'))
+WebUI.click(findTestObject('Object Repository/LifeCharger/Page_Search Results for   Life Charger/a_You will definitely reach your goal'))
 
 WebUI.closeBrowser()
 
